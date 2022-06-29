@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="sidebar">
+        <div class="colors">
+            <div onclick = "change_color(this)" class="color" color="red" style="background-color: red;"></div>
+            <div onclick = "change_color(this)" class="color" color="blue" style="background-color: blue ;"></div>
+            <div onclick = "change_color(this)" class="color" color="brown" style="background-color: brown ;"></div>
+            <div onclick = "change_color(this)" class="color" color="yellow" style="background-color: yellow ;"></div>
+            <div onclick = "change_color(this)" class="color" color="green" style="background-color: green;"></div>
+            <div onclick = "change_color(this)" class="color" color="white" style="background-color: white;"></div>
+            <div onclick = "change_color(this)" class="color" color="orange" style="background-color: orange ;"></div>
+            <div onclick = "change_color(this)" class="color" color="teal" style="background-color: teal;"></div>
+        </div>
+        <div class="tools">
+            <div class="tool" tool="pencil">
+                <i class="fa fa-pencil"></i>
+            </div>
+            <div class="tool" tool="eraser">
+                <i class="fa fa-eraser"></i>
+            </div>
+            <div class="tool" tool="clear">
+                <i class="fa fa-trash"></i>
+            </div>
+
+        </div>
+        
+
+    </div>
+    <script src="https://kit.fontawesome.com/7368c40b21.js" 
+    crossorigin = " anonymous "></script>
+
+    <script src="main.js"></script>
+
+
+   
+</body>
+</html>

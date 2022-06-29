@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: #000;
+    position: relative;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+  }
+  
+  .colors,
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .color,
+  .tool {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .tools {
+    margin-top: 2em;
+  }
+  
+  .tool {
+    background-color: #fff;
+    font-size: 0.9rem;
+    border: 1px solid #000;
+    display: grid;
+    place-items: center;
+  }
+  
